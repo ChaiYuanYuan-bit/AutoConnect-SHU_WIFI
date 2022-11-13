@@ -43,7 +43,7 @@ def parse_opt():
     return opt
 
 
-def connect(opt):
+def connect2net(opt):
     logging.info(current_time() + " " + "尝试连接校园网...")
     driver = Edge()
     ac = ActionChains(driver)
@@ -86,9 +86,9 @@ def main(opt):
                     time.sleep(opt.time)
             else:
                 logging.info(current_time() + " " + str(u"与校园网断开连接..."))
-                connect(opt)
+                connect2net(opt)
     else:
-        connect(opt)
+        connect2net(opt)
 
 
 if __name__ == "__main__":
