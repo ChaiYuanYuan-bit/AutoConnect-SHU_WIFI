@@ -6,6 +6,7 @@
 ## AutoConnect
 ### 环境安装
 1.安装合适自己edge版本的[webdriver](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/)
+
 2.将webdriver中的exe重命名为MicrosoftWebDriver.exe并添加到环境变量
 
 ### 添加用户名和密码
