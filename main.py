@@ -17,7 +17,7 @@ def check_input(opt):
         return True
 
 
-def is_net_ok():
+def check_net():
     driver_test = Edge()
     try:
         driver_test.get("http://10.10.9.9:8080")
@@ -73,7 +73,7 @@ def current_time():
 def main(opt):
     if opt.reconnect:
         while True:
-            if is_net_ok():
+            if check_net():
                 logging.info(current_time() + " " + str(u"您已成功登录校园网!"))
                 while True:
                     logging.info(current_time() + " " + str(u"检查网络连接"))
