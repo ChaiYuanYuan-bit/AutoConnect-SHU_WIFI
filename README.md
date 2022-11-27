@@ -23,9 +23,9 @@
 ```
 
 ### 开机自启动
-方法1：win+r中输入shell:startup，将bat文件的桌面快捷方式剪切到该文件夹下
+方法1(推荐)：win+r中输入shell:startup，将bat文件的桌面快捷方式剪切到该文件夹下
 
-方法2(推荐)：参考[添加windows服务](https://blog.csdn.net/weixin_46560589/article/details/127734836)中的第三种方法将bat注册为windows服务
+方法2(麻烦)：参考[添加windows服务](https://blog.csdn.net/weixin_46560589/article/details/127734836)中的第三种方法将bat注册为windows服务
 
 ### 日志信息
 在桌面logger.log中
