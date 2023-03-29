@@ -3,8 +3,6 @@
 
 # 本项目适用于Windows系统，Linux/Ubuntu请参考main.py自行修改，编写思路相似
 
-## 本脚本出自上海大学EIPL实验室
-
 ## AutoConnect
 ### 环境安装
 1.安装合适自己edge版本的[webdriver](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/)
